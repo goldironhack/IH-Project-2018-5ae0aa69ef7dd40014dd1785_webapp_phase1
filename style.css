@@ -1,9 +1,16 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+:root{
+  --ftcolor1 :#ffffff;
+  --ftcolor2 :#11007F;
 }
-
-.container {
-    width: 100%;
-    max-width: 960px;
+#id0{
+  background-color: var(--ftcolor2);
+  color: var(--ftcolor1);
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+#map{
+  height: 530px;
+  width: 100%;
+  margin-top: 5px;
 }
